@@ -1,0 +1,7 @@
+services:
+  n3n:
+    build:
+      context: .
+      dockerfile: dockerfile.test
+    ports:
+      - 7777
