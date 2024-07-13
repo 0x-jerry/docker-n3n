@@ -4,4 +4,4 @@ services:
       context: .
       dockerfile: dockerfile.test
     ports:
-      - 7777
+      - 7777:7777/udp
