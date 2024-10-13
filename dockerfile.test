@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 ubuntu:24.10
+FROM --platform=linux/amd64 ubuntu:oracular-20241009
 
 COPY ./ubuntu.sources /etc/apt/sources.list.d/ubuntu.sources
 

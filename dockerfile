@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 ubuntu:24.10
+FROM --platform=linux/amd64 ubuntu:oracular-20241009
 
 RUN apt-get update && apt-get install python3 curl -y
 
